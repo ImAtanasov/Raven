@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:text="tag:"
+        android:fontFamily="@font/axiforma_black"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+
+    <EditText
+        android:id="@+id/tag_text"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="14dp"
+        android:background="@null"
+        android:ems="8"
+        android:fontFamily="@font/axiforma_black"
+        android:inputType="textPersonName"
+        android:text="tagText"
+        android:textColorHighlight="@color/shapeColDarker"
+        android:textColorHint="@color/black"
+
+        android:textCursorDrawable="@drawable/pointer"
+
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/time_text"
+        android:fontFamily="@font/axiforma_black"
+        android:paddingLeft="0dp"
+        android:text="sent:"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/axiforma_black"
+        android:text="00:00:00"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

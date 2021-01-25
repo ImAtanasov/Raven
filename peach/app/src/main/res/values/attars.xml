@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="ItemBackgroundColor" format="reference" />
+    <attr name="ItemTextColor" format="reference" />
+    <attr name="SearchIconColor" format="reference" />
+    <attr name="floatingButtonBackground" format="reference" />
+    <attr name="cicleAroundPicture" format="reference" />
+    <attr name="playButtonBackground" format="reference" />
+
+    <attr name="playStopColor" format="reference" />
+
+    <attr name="recordButton" format="reference" />
+    <attr name="expandableBackground" format="reference" />
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme3" parent="Theme.Peach">
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/SpaceCherry2</item>
+
+        <item name="android:windowBackground">@drawable/rombs</item>
+
+
+        <item name="appBarLayoutStyle">@style/DefaultSearchViewStyle</item>
+
+        <!-- User item -->
+        <item name="ItemBackgroundColor">@color/shapeCol</item>
+        <item name="ItemTextColor">@color/SpaceCherry</item>
+        <item name="cicleAroundPicture">@color/black</item>
+
+        <!-- Search -->
+        <item name="SearchIconColor">@color/SpaceCherry</item>
+        <item name="android:editTextColor">@color/SpaceCherry</item>
+        <item name="android:textColorHint">@color/SpaceCherry</item>
+        <item name="colorSecondary">@color/SpaceCherry</item>
+        <item name="colorSecondaryVariant">@color/SpaceCherry</item>
+
+        <!-- float button -->
+        <item name="floatingButtonBackground">@color/SpaceCherry2</item>
+
+
+    </style>
+
+
+</resources>
